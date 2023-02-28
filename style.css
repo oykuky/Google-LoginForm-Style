@@ -1,0 +1,73 @@
+.body{
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+}
+
+h1{
+    font-size: 26px;
+    font-weight:100;
+}
+h4{
+    font-size: 17px;
+    color:#202124;
+    font-weight: 200;
+    opacity: 0.8;
+}
+
+img{
+    max-width:100px;
+    max-height:60px;
+    
+}
+.main{
+    width: 370px;
+    height: 450px;
+    /* sayfaya ortalama*/
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    border: 2px solid #d9dbdc;
+    border-radius: 0.6em;
+    text-align: center;
+    padding: 2rem;
+}
+
+.input{
+  display:block;
+  height: 100px;
+  outline:none;
+}
+
+.text-field{
+    border: 3px solid #d9dbdc9b;
+    width: 250px;
+    height: 35px;
+}
+
+/*imleç ile üzerine tıklandığında çerçeve rengi değişir*/
+.text-field:focus{
+    border: 1px solid #4d90fe;
+    outline: none
+}
+
+button{
+    background-color: #1a73e8;
+    border-radius: 0.3em;
+    width: 90px;
+    height: 35px;
+    font-size: 15px;
+    color: antiquewhite;
+    cursor: pointer;
+    border:1px solid transparent
+}
+
+/*Buton üzerine mouse ile gelindiğinde gölge verilir*/
+.btn-hvr:hover{
+    box-shadow: 0 6px 6px 0 rgba(32,33,36,0.28);
+}
+
+
+.forgotTxt a{
+    color: #1a73e8;
+    text-decoration: none;
+}
